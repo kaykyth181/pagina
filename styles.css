@@ -1,0 +1,41 @@
+ /*reset css */
+
+/* Reset básico compacto */
+*{margin:0;padding:0;box-sizing:border-box}html,body{height:100%}body{line-height:1.5;font-family:Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}a{text-decoration:none;color:inherit}table{border-collapse:collapse;border-spacing:0}
+
+/* fim do reset*/
+/*
+.opcoes ul {
+    padding: 0;
+    list-style-type: none;
+  text-align: center;
+}
+
+.opcoes ul li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os itens 
+}*/
+.opcoes ul li{
+  display:block;
+  margin: 10px;
+}
+
+
+#main-menu{
+  background: blue;
+  position: fixed; 
+  margin-top: 50%;
+}
+
+#sobre, #contatos{
+  height: 2000px;
+  
+}
+
+#sobre{
+  background: purple;
+}
+
+#contatos{
+  background: green;
+}
