@@ -4,6 +4,25 @@
 *{margin:0;padding:0;box-sizing:border-box}html,body{height:100%}body{line-height:1.5;font-family:Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}a{text-decoration:none;color:inherit}table{border-collapse:collapse;border-spacing:0}
 
 /* fim do reset*/
+
+
+:root {
+    --fundo-menu-lateral: #0d0d0d;
+    --fundo-claro: #940999;
+    --fundo-escuro: #0D0D0D;
+
+    --texto-escuro: #00070D;
+    --texto-menu: #0CF25D;
+    --texto-claro: #ffffffea;
+    --texto-titulo: #0CF25D;
+
+    --detalhes-claro: #91cf9b;
+    --detalhes-icones: #ffffff;
+    --detalhes-escuro: #D904A0;
+
+    /* --cor-transparente: rgba(0,255,0, 0.5); */
+}
+
 /*
 .opcoes ul {
     padding: 0;
@@ -18,13 +37,17 @@
 .opcoes ul li{
   display:block;
   margin: 10px;
+  color: var(--texto-claro)
+  
 }
 
 
+/*menu*/
 #main-menu{
   background: blue;
   position: fixed; 
   margin-top: 50%;
+  border-radius: 0 50% 50% 0
 }
 
 #sobre, #contatos{
@@ -39,3 +62,30 @@
 #contatos{
   background: green;
 }
+
+
+
+/* sobre*/
+.logo{
+  width:100px;
+  padding-top: 0;
+  margin: 0 auto;
+ display: block;  
+  background: beige;
+  border-radius: 20%;
+}
+.logo img {
+  border-radius: 50%;
+}
+.logo h2 {
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+
+
+
+
